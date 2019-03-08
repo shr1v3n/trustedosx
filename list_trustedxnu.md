@@ -51,8 +51,14 @@ Format:
 
 # WIFIADM bitmask 0x00000022
 wifiadm:0x22:wifiadm,alladm
-
-
+# security administrator
+secadm:0x600:secadm
+# procfs ro
+procro:0x060:procro
+# procfs rw
+procrw:0x070:procrw
+# null privileged role
+null:0x0000:null,nobody
 
 
 
